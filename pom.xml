@@ -20,6 +20,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <jest.version>6.3.1</jest.version>
+        <i18n.thymeleaf>1.5.2.RELEASE</i18n.thymeleaf>
     </properties>
 
     <dependencies>
@@ -39,6 +40,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        
+        <!-- i18n dependency -->
+        <dependency>
+        	<groupId>org.springframework.boot</groupId>
+        	<artifactId>spring-boot-starter-thymeleaf</artifactId>
+        	<version>${i18n.thymeleaf}</version>
         </dependency>
         
     </dependencies>
